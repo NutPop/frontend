@@ -19,13 +19,32 @@ export default function RootLayout({ children }) {
 
         {children} 
 
-        <footer>
-          <div className="row my-3">
-            <div className="col-md-12 text-center bg-light p-5 border rounded">
-              Footer
-            </div>
-          </div>
-        </footer>
+        <footer className="bg-light py-5">
+  <div className="container">
+    <div className="row">
+      <div className="col-md-6">
+        <h5>About Me</h5>
+        <p>002 Veerapat Suttisai</p>
+      </div>
+      <div className="col-md-3">
+        <h5>Links</h5>
+        <ul className="list-unstyled">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div className="col-md-3">
+        <h5>Follow Us</h5>
+        <a href="#" className="me-2"><i className="fab fa-facebook"></i></a>
+        <a href="#" className="me-2"><i className="fab fa-twitter"></i></a>
+        <a href="#" className="me-2"><i className="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
       </body>
     </html>
   );
