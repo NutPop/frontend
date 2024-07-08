@@ -69,34 +69,42 @@ export default function Home() {
       </div>
     </div>
 
-    <div className="row mb-3">
-  <div className="col-md-4"> {/* ปรับเป็น col-md-4 */}
-    <div className="card" style={{ width: '18rem' }}>
-      <Image src={KimdojaImage} className="card-img-top" alt="Kimdoja" width={286} height={180} />
-      <div className="card-body">
-        <p className="card-text">Kim</p>
-      </div>
+    <div className="row mb-3 justify-content-center"> <div className="col-md-4">
+        <div className="card shadow-sm" style={{ width: '18rem' }}>
+            <Image src={KimdojaImage} className="card-img-top" alt="Kimdoja" width={286} height={180} />
+            <div className="card-body">
+                <h5 className="card-title">Kim</h5> 
+                <p className="card-text">คิม ด็อกจาคือตัวเอกหลักของOmniscient Reader's Viewpointเขาเป็นนักอ่านคนเดียวของเว็บโนเวลเรื่องThree Ways to Survive in a Ruined Worldซึ่งเป็นเรื่องราวแฟนตาซีเกี่ยวกับวันสิ้นโลก</p>
+                {/* เพิ่มเติมปุ่มหรือลิงก์หากต้องการ */}
+            </div>
+        </div>
     </div>
-  </div>
 
-  <div className="col-md-4"> {/* ปรับเป็น col-md-4 */}
-    <div className="card" style={{ width: '18rem' }}>
-      <Image src={LogorinaImage} className="card-img-top" alt="Logorina" width={286} height={180} />
-      <div className="card-body">
-        <p className="card-text">Jung</p>
-      </div>
+    <div className="col-md-4">
+        <div className="card shadow-sm" style={{ width: '18rem' }}>
+            <Image src={LogorinaImage} className="card-img-top" alt="Logorina" width={286} height={180} />
+            <div className="card-body">
+                <h5 className="card-title">Rina</h5>
+                <p className="card-text">เป็นตัวละครหลักในLove Live! Nijigasaki High School Idol Clubเธอเป็นนักเรียนชั้นปีที่ 1 ของNijigasaki High Schoolเธอเป็นสมาชิกของQU4RTZซึ่งเป็นกลุ่มย่อยของNijigakuสีประจำตัวของเธอคือสีขาวเหมือนกระดาษ แม้ว่าเธอจะแทนด้วยสีเทาก็ตาม</p>
+                {/* เพิ่มเติมปุ่มหรือลิงก์หากต้องการ */}
+            </div>
+        </div>
     </div>
-  </div>
 
-  <div className="col-md-4"> {/* ปรับเป็น col-md-4 */}
-    <div className="card" style={{ width: '18rem' }}>
-      <Image src={VioletImage} className="card-img-top" alt="Violet" width={286} height={180} />
-      <div className="card-body">
-        <p className="card-text">Violet</p>
-      </div>
+    <div className="col-md-4">
+        <div className="card shadow-sm" style={{ width: '18rem' }}>
+            <Image src={VioletImage} className="card-img-top" alt="Violet" width={286} height={180} />
+            <div className="card-body">
+                <h5 className="card-title">Violet</h5>
+                <p className="card-text">ไวโอเล็ต เอเวอร์การ์เดน เป็นชุดนวนิยายจากประเทศญี่ปุ่นประพันธ์โดย Kana Akatsuki และวาดภาพโดย Akiko Takase นิยายเรื่องนี้ได้รับรางวัลใหญ่ในประเภทนวนิยายจากงานเกียวโตแอนิเมชันอวอร์ดครั้งที่ห้าของเกียวโตแอนิเมชันในปี 2014 ซึ่งเป็นผลงานชิ้นแรกที่ได้รับรางวัลใหญ่ในสามประเภท เกียวโตแอนิเมชันตีพิมพ์ไลท์โนเวลเรื่องแรก</p>
+                {/* เพิ่มเติมปุ่มหรือลิงก์หากต้องการ */}
+            </div>
+        </div>
+        
     </div>
-  </div>
+    
 </div>
+     
   </div>
 </>
   );
