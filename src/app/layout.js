@@ -2,6 +2,7 @@
 import './globals.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Script from 'next/script';
+import Link from 'next/link';
 
 export default function RootLayout({ children }) {
   return (
@@ -29,10 +30,10 @@ export default function RootLayout({ children }) {
       <div className="col-md-3">
         <h5>Links</h5>
         <ul className="list-unstyled">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
+        <Link className="nav-link active" aria-current="page" href="/">Home</Link>
+          <Link className="nav-link" href="/about">About</Link>
+          <Link className="nav-link" href="/service">Service</Link>
+          <Link className="nav-link" href="/contact">Contact</Link>
         </ul>
       </div>
       <div className="col-md-3">
