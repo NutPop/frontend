@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "./page.module.css";
+import styles from './page.module.css';
 import Link from 'next/link';
 import KimImage from './Kim.jpg';
 import JungImage from './Jung.jpg';
@@ -26,20 +26,20 @@ export default function Home() {
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-      <li className="nav-item">
-    <Link className="nav-link active" aria-current="Page" href="/">Home</Link>
-  </li>
-  <li className="nav-item">
-    <Link className="nav-link" href="/About.js">About</Link>
-  </li>
-  <li className="nav-item">
-    <Link className="nav-link" href="/Service.js">Service</Link>
-  </li>
-  <li className="nav-item">
-    <Link className="nav-link" href="/Contact.js">Contact</Link>
-  </li>
+        <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav ms-auto">
+              <li className="nav-item">
+                <Link className="nav-link active" aria-current="page" href="/">Home</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" href="/about">About</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" href="/service">Service</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" href="/contact">Contact</Link>
+              </li>
         <li class="nav-item">
         <a href="#" class="btn btn-outline-dark" tabindex="-1" role="button" aria-disabled="true">SigIn</a>
         </li>
